@@ -88,6 +88,21 @@ body {
 .about-us-text {
     display: flex;
     flex-direction: column;
+    animation-name: about-us-text-animation;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes about-us-text-animation {
+    1% {
+        color: #eb5e28;
+    }
+    50% {
+        color: aqua;
+    }
+    100% {
+        color: red;
+    }
 }
 
 .about-us-title {
@@ -110,6 +125,14 @@ body {
     height: 300px;
     margin: 0px 50px 0px 100px;
     border: solid #eb5f28 5px;
+    animation-name: about-us-img;
+    animation-duration: 3s;
+}
+
+@keyframes about-us-img {
+    0% {
+        margin-left: 250px;
+    }
 }
 
 #memberships {
@@ -197,6 +220,23 @@ body {
     height: 220px;
     margin: 0px 10px;
     transition: 300ms;
+    animation-name: features-images-img;
+    animation-duration: 2.5s;
+}
+
+@keyframes features-images-img {
+    0% {
+        border-bottom: #eb5e28 solid 4px;
+    }
+    33% {
+        border-right: #eb5e28 solid 4px;
+    }    
+    66% {
+        border-top: #eb5e28 solid 4px;
+    }
+    100% {
+        border-left: #eb5e28 solid 4px;
+    }
 }
 
 .features-images img:hover {
@@ -236,23 +276,24 @@ body {
 }
 
 .contact-socials ul li .instagram:hover {
-    background: #eb5e28;
+    background: #eb28db;
+    transform: rotate(180deg);
+    font-size: 30px;
 }
 
 .contact-socials ul li .facebook:hover {
-    background: #eb5e28;
+    background: #2611eb;
+    transform: translateY(-20px);
 }
 
 .contact-socials ul li .whatsapp:hover {
-    background: #eb5e28;
+    background: #79e43bd2;
+    transform: translateY(20px);
 }
 
 .contact-socials ul li .mail:hover {
-    background: #eb5e28;
-}
-
-.contact-socials ul li .phone:hover {
-    background: #eb5e28;
+    background: #fd1515;
+    transform: scale(2);
 }
 
 #join {
