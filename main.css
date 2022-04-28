@@ -109,6 +109,7 @@ body {
     text-align: center;
     margin: 30px 0px 60px 0px;
     font-size: 30px;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .about-us-subtitle {
@@ -154,6 +155,7 @@ body {
 .memberships-title h3{
     font-size: 30px;
     text-align: center;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .memberships-title p{
@@ -208,6 +210,7 @@ body {
     justify-content: center;
     font-size: 25px;
     margin-bottom: 20px;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .features-images {
@@ -257,6 +260,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     color: #fffcf2;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .contact-socials ul li {
@@ -320,7 +324,8 @@ body {
 .join-title {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    margin-bottom: 30px;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .join-create-account {
@@ -398,6 +403,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .our-gyms-branchs {
@@ -506,7 +512,9 @@ body {
 .classes-title {
     display: flex;
     justify-content: center;
-    padding: 35px 0px;
+    margin-bottom: 35px;
+    padding-top: 20px;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .classes-complete-table {
@@ -541,6 +549,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    border-bottom: #eb5e28 solid 2px;
 }
 
 .faq-complete-questions {
